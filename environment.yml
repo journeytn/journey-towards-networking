@@ -6,5 +6,3 @@ dependencies:
   - scipy
   - numpy
   - pip
-  - pip:
-      - pickle5
