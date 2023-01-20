@@ -4,17 +4,17 @@ import networkx as nx
 import matplotlib
 from scipy import stats
 
-mapP2UNIPROT = pkl.load(open("mapP2UNIPROT.pkl", 'rb'))
-mapP2PrefName = pkl.load(open("mapP2PrefName.pkl", 'rb'))
-mapGOBP2PrefName = pkl.load(open("mapGOBP2PrefName.pkl", 'rb'))
-mapC2PrefName = pkl.load(open("mapC2PrefName.pkl", 'rb'))
-mapM2PrefName = pkl.load(open("mapM2PrefName.pkl", 'rb'))
-relGOBP2lP = pkl.load(open("relGOBP2lP.pkl", 'rb'))
-relP2lGOBP = pkl.load(open("relP2lGOBP.pkl", 'rb'))
-GraphPPi = pkl.load(open("GraphPPi.pkl", 'rb'))
-relC2lP = pkl.load(open("relC2lP.pkl", 'rb'))
-relP2lC = pkl.load(open("relP2lC.pkl", 'rb'))
-relC2M = pkl.load(open("relC2M.pkl", 'rb'))
+mapP2UNIPROT = pkl.load(open("data/mapP2UNIPROT.pkl", 'rb'))
+mapP2PrefName = pkl.load(open("data/mapP2PrefName.pkl", 'rb'))
+mapGOBP2PrefName = pkl.load(open("data/mapGOBP2PrefName.pkl", 'rb'))
+mapC2PrefName = pkl.load(open("data/mapC2PrefName.pkl", 'rb'))
+mapM2PrefName = pkl.load(open("data/mapM2PrefName.pkl", 'rb'))
+relGOBP2lP = pkl.load(open("data/relGOBP2lP.pkl", 'rb'))
+relP2lGOBP = pkl.load(open("data/relP2lGOBP.pkl", 'rb'))
+GraphPPi = pkl.load(open("data/GraphPPi.pkl", 'rb'))
+relC2lP = pkl.load(open("data/relC2lP.pkl", 'rb'))
+relP2lC = pkl.load(open("data/relP2lC.pkl", 'rb'))
+relC2M = pkl.load(open("data/relC2M.pkl", 'rb'))
 
 def getPfromlGOBP(lGOBP):
     s = set()
